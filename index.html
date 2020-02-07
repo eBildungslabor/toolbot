@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>
+        Toolbot zur Werkzeug-Auswahl bei der OER-Erstellung
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page styles - make your own! -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Peekobot custom properties (CSS variable) - set these! -->
+    <style>
+        :root {
+            --peekobot-height: 80vh;
+            --peekobot-avatar: url();
+        }
+    </style>
+    <!-- Peekobot styles -->
+    <link rel="stylesheet" href="peekobot.css">
+    
+    <!-- These provide in-browser transpilation of ES6 JS code to ES5 to support IE11 -->
+    <script src="https://unpkg.com/@babel/polyfill@7.6.0/dist/polyfill.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+
+    <header class="text-center">
+        <h1 class="xl reset-margin large-margin">Toolbot</h1>
+        <p>
+          Chatte mit mir!
+      </p>
+      
+      <p>
+        <a href="https://toolbot.glitch.me/">Neu starten!</a>
+      </p>
+      <div align="center">
+        <p>
+          
+        
+    <img src="https://cdn.glitch.com/b7144603-c415-4c19-bfc9-75e147b33c50%2Fday27-my-robot-d2521b56929659aa4b0f24ba16afd3d6.png?v=1581025338983"> </p>  </div> 
+     
+     
+     
+  </header>
+      
+ 
+
+    <main id="main">
+        <div id="peekobot-container">
+            <div id="peekobot"></div>
+        </div>
+    </main>
+
+    <script src="conversation.js"></script>
+    <script type="text/babel" data-presets="es2015,es2016,es2017" src="peekobot.js"></script>
+
+
+</body>
+
+</html>
